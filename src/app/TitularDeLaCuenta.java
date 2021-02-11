@@ -35,6 +35,6 @@ public class TitularDeLaCuenta implements Runnable{
                 Thread.currentThread().getName() + " para retirar " + cuenta.getSaldo());
         }
 
-        System.out.println("Luego de los retiros de ")
+        System.out.println("Luego del retiro a la cuenta, se tiene $"+cuenta.getSaldo()+" de saldo");
     }
 }
